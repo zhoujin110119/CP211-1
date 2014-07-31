@@ -21,6 +21,7 @@
 		1813AC171984E72E009B9AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1813ABF91984E72E009B9AAA /* UIKit.framework */; };
 		1813AC1F1984E72E009B9AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1813AC1D1984E72E009B9AAA /* InfoPlist.strings */; };
 		1813AC211984E72E009B9AAA /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813AC201984E72E009B9AAA /* CalculatorTests.m */; };
+		1813AC2C1984FD51009B9AAA /* YZCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813AC2B1984FD51009B9AAA /* YZCalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1813AC1C1984E72E009B9AAA /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		1813AC1E1984E72E009B9AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1813AC201984E72E009B9AAA /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		1813AC2A1984FD51009B9AAA /* YZCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCalculatorBrain.h; sourceTree = "<group>"; };
+		1813AC2B1984FD51009B9AAA /* YZCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1813AC0B1984E72E009B9AAA /* YZViewController.m */,
 				1813AC0D1984E72E009B9AAA /* Images.xcassets */,
 				1813ABFC1984E72E009B9AAA /* Supporting Files */,
+				1813AC2A1984FD51009B9AAA /* YZCalculatorBrain.h */,
+				1813AC2B1984FD51009B9AAA /* YZCalculatorBrain.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				1813AC0C1984E72E009B9AAA /* YZViewController.m in Sources */,
 				1813AC021984E72E009B9AAA /* main.m in Sources */,
 				1813AC061984E72E009B9AAA /* YZAppDelegate.m in Sources */,
+				1813AC2C1984FD51009B9AAA /* YZCalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +465,7 @@
 				1813AC261984E72E009B9AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1813AC271984E72E009B9AAA /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				1813AC291984E72E009B9AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
